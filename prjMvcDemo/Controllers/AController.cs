@@ -14,7 +14,7 @@ namespace prjMvcDemo.Controllers
         public string testQuery()
         {
             CCustomerFactory cc = new CCustomerFactory();
-            return cc.queryByAll().Count().ToString()pp[;
+            return cc.queryByAll().Count().ToString();
         }
         public string testUpdate()
         {
